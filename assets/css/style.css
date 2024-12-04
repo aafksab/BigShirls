@@ -4,16 +4,16 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background: #a0f4b1dd;
+  background: rgb(23, 88, 209);
 }
 
 a {
-  color: #520099;
+  color: rgb(82, 0, 153);
   text-decoration: none;
 }
 
 a:hover {
-  color: #520099;
+  color: rgb(82, 0, 153);
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #520099;
+  border: 6px solid rgb(82, 0, 153);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -108,7 +108,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgb(30, 3, 76);
+  background: rgb(31, 31, 31);
 }
 
 #header .logo {
@@ -121,7 +121,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #00992b;
+  color: rgb(111, 154, 234);
 }
 
 #header .logo img {
@@ -138,8 +138,8 @@ h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #009961;
-  color: #520099;
+  background: rgb(0, 153, 97);
+  color: rgb(82, 0, 153);
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
   white-space: nowrap;
@@ -249,7 +249,7 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
-  border-top: 2px solid #009961;
+  border-top: 2px solid rgb(0, 153, 97);
 }
 
 .navbar .dropdown ul li {
@@ -261,7 +261,7 @@ h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #282828;
+  color: rgb(40, 40, 40);
 }
 
 .navbar .dropdown ul a i {
@@ -271,7 +271,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #009961;
+  color: rgb(0, 153, 97);
 }
 
 .navbar .dropdown:hover>ul {
@@ -360,7 +360,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #282828;
+  color: rgb(40, 40, 40);
 }
 
 .navbar-mobile a:hover:before,
@@ -372,7 +372,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #009961;
+  color: rgb(0, 153, 97);
 }
 
 .navbar-mobile .getstarted,
@@ -407,7 +407,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #009961;
+  color: rgb(0, 153, 97);
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -420,14 +420,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/clients/wide_hero.jpg") top center;
+  background: url("../img/Billiards Business Card.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: hwb(0 0% 100% / 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -459,7 +459,7 @@ h6 {
   width: 94px;
   height: 94px;
   margin: 0 auto;
-  background: radial-gradient(#009961 50%, rgba(0, 153, 97, 0.4) 52%);
+  background: radial-gradient(rgb(0, 153, 97) 50%, rgba(0, 153, 97, 0.4) 52%);
   border-radius: 50%;
   display: block;
   overflow: hidden;
@@ -500,7 +500,7 @@ h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #009961;
+  border-left: 15px solid rgb(0, 153, 97);
   transform: scale(20);
 }
 
@@ -561,7 +561,7 @@ section {
 }
 
 .section-bg {
-  background-color: #8fffd6;
+  background-color: rgb(143, 255, 214);
 }
 
 .section-title {
@@ -582,20 +582,23 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #520099;
+  background: rgb(82, 0, 153);
   bottom: 0;
   left: 0;
 }
 
 .section-title p {
   margin-bottom: 0;
-  color: #777777;
+  color: rgb(119, 119, 119);
   font-size: 15px;
 }
 
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about {
+  background-color: #dddddd;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -620,7 +623,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #520099;
+  color: rgb(82, 0, 153);
   line-height: 1;
 }
 
@@ -638,14 +641,14 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #520099;
+  color: rgb(82, 0, 153);
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #520099;
+  border: 2px solid rgb(82, 0, 153);
 }
 
 .about .content .btn-learn-more:hover {
-  background: #520099;
+  background: rgb(82, 0, 153);
   color: #fff;
   text-decoration: none;
 }
@@ -665,7 +668,7 @@ section {
 .services .icon-box .icon {
   width: 64px;
   height: 64px;
-  background: #009961;
+  background: rgb(0, 153, 97);
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -686,7 +689,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #282828;
+  color: rgb(40, 40, 40);
   transition: ease-in-out 0.3s;
 }
 
@@ -698,11 +701,11 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  border-color: #520099;
+  border-color: rgb(82, 0, 153);
 }
 
 .services .icon-box:hover h4 a {
-  color: #520099;
+  color: rgb(82, 0, 153);
 }
 
 /*--------------------------------------------------------------
@@ -734,13 +737,13 @@ section {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  background: #520099;
+  background: rgb(82, 0, 153);
   color: #fff;
   border-radius: 50px;
 }
 
 .cta .cta-btn:hover {
-  background: #8314e5;
+  background: rgb(131, 20, 229);
 }
 
 @media (max-width: 1024px) {
@@ -769,12 +772,12 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #009961;
+  color: rgb(0, 153, 97);
 }
 
 .features .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: rgb(132, 132, 132);
   margin-left: 60px;
 }
 
@@ -793,8 +796,8 @@ section {
 }
 
 .clients .clients-wrap {
-  border-top: 1px solid #e7e7e7;
-  border-left: 1px solid #e7e7e7;
+  border-top: 1px solid rgb(231, 231, 231);
+  border-left: 1px solid rgb(231, 231, 231);
 }
 
 .clients .client-logo {
@@ -802,8 +805,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
+  border-right: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
   overflow: hidden;
   background: #fff;
   height: 140px;
@@ -852,7 +855,7 @@ section {
   font-size: 48px;
   display: block;
   font-weight: 700;
-  color: #520099;
+  color: rgb(82, 0, 153);
 }
 
 .counts .counters p {
@@ -887,17 +890,17 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #444444;
+  color: #a4a3a3;
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: #f4f4f4;
+  background: rgb(244, 244, 244);
   border-radius: 50px;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #520099;
+  background: rgb(82, 0, 153);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -923,7 +926,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #520099;
+  background: rgb(82, 0, 153);
   padding: 15px 20px;
 }
 
@@ -951,7 +954,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #33ffb4;
+  color: rgb(51, 255, 180);
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -988,11 +991,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #520099;
+  border: 1px solid rgb(82, 0, 153);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #520099;
+  background-color: rgb(82, 0, 153);
 }
 
 .portfolio-details .portfolio-info {
@@ -1045,7 +1048,7 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background: #fefefe;
+  background: rgb(254, 254, 254);
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
@@ -1055,12 +1058,12 @@ section {
   margin-top: 15px;
   font-size: 18px;
   font-weight: 600;
-  color: #282828;
+  color: rgb(40, 40, 40);
 }
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #520099;
+  color: rgb(82, 0, 153);
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1073,7 +1076,7 @@ section {
 }
 
 .pricing .box h4 span {
-  color: #bababa;
+  color: rgb(186, 186, 186);
   font-size: 16px;
   font-weight: 300;
 }
@@ -1081,7 +1084,7 @@ section {
 .pricing .box ul {
   padding: 20px 0;
   list-style: none;
-  color: #282828;
+  color: rgb(40, 40, 40);
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1092,13 +1095,13 @@ section {
 }
 
 .pricing .box ul i {
-  color: #520099;
+  color: rgb(82, 0, 153);
   font-size: 18px;
   padding-right: 4px;
 }
 
 .pricing .box ul .na {
-  color: #ccc;
+  color: rgb(204, 204, 204);
   text-decoration: line-through;
 }
 
