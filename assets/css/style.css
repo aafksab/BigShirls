@@ -1,19 +1,26 @@
 /*--------------------------------------------------------------
+# color themeing
+--------------------------------------------------------------*/
+:root {
+  --primary-color: rgb(126, 161, 226);
+  --secondary-color: rgb(132, 132, 132);
+  --text-color: #444444;
+  --background-color: rgb(132, 155, 192);
+}
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
-  background: rgb(23, 88, 209);
 }
 
 a {
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
   text-decoration: none;
 }
 
@@ -45,7 +52,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid rgb(82, 0, 153);
+  border: 6px solid rgb(23, 88, 209);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -74,7 +81,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #009961;
+  background: rgb(126, 161, 226);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -139,7 +146,7 @@ h6 {
 .get-started-btn {
   margin-left: 25px;
   background: rgb(0, 153, 97);
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
   white-space: nowrap;
@@ -216,7 +223,6 @@ h6 {
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: #009961;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -560,10 +566,6 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  background-color: rgb(143, 255, 214);
-}
-
 .section-title {
   padding-bottom: 30px;
 }
@@ -582,7 +584,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: rgb(82, 0, 153);
+  background: rgb(23, 88, 209);
   bottom: 0;
   left: 0;
 }
@@ -623,7 +625,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
   line-height: 1;
 }
 
@@ -641,14 +643,14 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid rgb(82, 0, 153);
+  border: 2px solid rgb(23, 88, 209);
 }
 
 .about .content .btn-learn-more:hover {
-  background: rgb(82, 0, 153);
+  background: rgb(23, 88, 209);
   color: #fff;
   text-decoration: none;
 }
@@ -701,11 +703,11 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  border-color: rgb(82, 0, 153);
+  border-color: rgb(23, 88, 209);
 }
 
 .services .icon-box:hover h4 a {
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
 }
 
 /*--------------------------------------------------------------
@@ -737,7 +739,7 @@ section {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  background: rgb(82, 0, 153);
+  background: rgb(23, 88, 209);
   color: #fff;
   border-radius: 50px;
 }
@@ -855,7 +857,7 @@ section {
   font-size: 48px;
   display: block;
   font-weight: 700;
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
 }
 
 .counts .counters p {
@@ -875,12 +877,16 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background-color: rgb(161 175 199);
+}
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
   border-radius: 50px;
+  background-color: rgb(139, 176, 245);
 }
 
 .portfolio #portfolio-flters li {
@@ -893,14 +899,12 @@ section {
   color: #a4a3a3;
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: rgb(244, 244, 244);
   border-radius: 50px;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: rgb(82, 0, 153);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -926,7 +930,6 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgb(82, 0, 153);
   padding: 15px 20px;
 }
 
@@ -989,13 +992,12 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
   opacity: 1;
-  border: 1px solid rgb(82, 0, 153);
+  border: 1px solid rgb(23, 88, 209);
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(82, 0, 153);
+  background-color: rgb(23, 88, 209);
 }
 
 .portfolio-details .portfolio-info {
@@ -1063,7 +1065,7 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1095,7 +1097,7 @@ section {
 }
 
 .pricing .box ul i {
-  color: rgb(82, 0, 153);
+  color: rgb(23, 88, 209);
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1115,7 +1117,7 @@ section {
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
   border: 2px solid #009961;
-  color: #520099;
+  color: rgb(126, 161, 226);
   font-size: 14px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -1124,7 +1126,7 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #520099;
+  background: rgb(126, 161, 226);
   color: #fff;
 }
 
@@ -1133,13 +1135,13 @@ section {
 }
 
 .pricing .recommended .btn-buy {
-  background: #520099;
+  background: rgb(126, 161, 226);
   color: #fff;
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #520099;
-  border-color: #520099;
+  background: rgb(126, 161, 226);
+  border-color: rgb(126, 161, 226);
 }
 
 .pricing .recommended-badge {
@@ -1242,7 +1244,7 @@ section {
 }
 
 .faq .accordion-list a.collapsed:hover {
-  color: #520099;
+  color: rgb(126, 161, 226);
 }
 
 .faq .accordion-list a.collapsed .icon-show {
@@ -1271,7 +1273,7 @@ section {
 
 .contact .info i {
   font-size: 32px;
-  color: #520099;
+  color: rgb(126, 161, 226);
   float: left;
   line-height: 1;
 }
@@ -1317,7 +1319,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #520099;
+  background: rgb(126, 161, 226);
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1341,7 +1343,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #520099;
+  border: 3px solid rgb(126, 161, 226);
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1466,7 +1468,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #520099;
+  background: rgb(126, 161, 226);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
